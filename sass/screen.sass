@@ -1,0 +1,189 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+// @import "compass/reset"
+@import "bootstrap/_variables"
+@import "bootstrap/_mixins"
+@import "bootstrap/_grid"
+@import "bootstrap/_forms"
+@import "bootstrap/_buttons"
+@import "bootstrap/_utilities"
+@import "bootstrap/_responsive-utilities"
+
+
+// Reset
+@import "bootstrap/_normalize"
+@import "bootstrap/_print"
+@import "bootstrap/_scaffolding"
+
+
+
+.container
+  max-width: 640px
+  min-width: 320px
+
+
+.navigation
+  height: 150px
+  background: url("../img/menu.png") no-repeat
+  background-size: contain
+
+
+  
+/////////////////////////////
+#voice
+  background: url("../img/command-voice-step-1.png") no-repeat 
+  
+#wait
+  background: url("../img/command-wait-step-1.png") no-repeat
+
+#forward
+  background: url("../img/command-forward-step-1.png") no-repeat
+
+#to-me
+  background: url("../img/command-to-me-step-1.png") no-repeat   
+
+#bad-step
+  background: url("../img/command-bad-step-1.png") no-repeat 
+
+#back-step
+  background: url("../img/command-back-step-1.png") no-repeat   
+  
+/////////////////////////////
+
+#bring-step
+  background: url("../img/command-bring-step-1.png") no-repeat
+
+#bypass-step
+  background: url("../img/command-bypass-step-1.png") no-repeat
+
+#catch-2
+  background: url("../img/command-catch_2-step-1.png") no-repeat
+
+#catch
+  background: url("../img/command-catch-step-1.png") no-repeat
+
+#creep-step
+  background: url("../img/command-creep-step-1.png") no-repeat
+
+#die-step
+  background: url("../img/command-die-step-1.png") no-repeat      
+
+#give-step
+  background: url("../img/command-give-step-1.png") no-repeat
+
+#go-step
+  background: url("../img/command-go-step-1.png") no-repeat
+
+#hold-step
+  background: url("../img/command-hold-step-1.png") no-repeat
+
+#leave-step
+  background: url("../img/command-leave-step-1.png") no-repeat
+
+#lie-step
+  background: url("../img/command-lie-step-1.png") no-repeat
+
+#look-for
+  background: url("../img/command-look-for-step-1.png") no-repeat
+
+#nearby
+  background: url("../img/command-nearby-step-1.png") no-repeat
+
+#paw
+  background: url("../img/command-paw-step-1.png") no-repeat
+
+#possible
+  background: url("../img/command-possible-step-1.png") no-repeat
+
+#right
+  background: url("../img/command-right-step-1.png") no-repeat
+
+#serve
+  background: url("../img/command-serve-step-1.png") no-repeat
+
+#silently
+  background: url("../img/command-silently-step-1.png") no-repeat
+
+#sit
+  background: url("../img/command-sit-step-1.png") no-repeat
+
+#spot
+  background: url("../img/command-spot-step-1.png") no-repeat
+
+#stand
+  background: url("../img/command-stand-step-1.png") no-repeat
+
+#take
+  background: url("../img/command-take-step-1.png") no-repeat
+
+#teeth
+  background: url("../img/command-teeth-step-1.png") no-repeat
+
+///////////////////////
+
+.dog
+  margin-bottom: 20px
+  background: url("../img/star.png") no-repeat 95% 95%  #EFEFEF
+  background-size: auto
+
+.dog-block
+  margin-bottom: 20px
+  background: url("../img/block.png") no-repeat 95% 95%  #EFEFEF
+  background-size: auto
+  div
+    opacity: 0.5
+
+.group-dogs
+  div
+    height: 235px	
+
+.active
+  overflow: auto 
+  height: 100%
+  .dog, .dog-block
+    div
+      background-size: contain !important  
+
+.inactive-left
+  overflow: hidden
+  padding-left: 0px
+  .dog, .dog-block
+    background-position: 80% 95%
+  p 
+    visibility: hidden       
+
+.inactive-right
+  overflow: hidden
+  padding-right: 0px
+  .group-dogs
+    overflow: hidden
+    .dog, .dog-block
+      background-position: -1000% 0%      
+
+.fixed, .navigation2
+  position: fixed
+
+.comand2
+  background-color: white
+  position: fixed
+  top: 130px
+
+.foto-comands2
+  margin-top: 220px
+  position: relative
+  z-index: -5 
+
+@media (max-width: $screen-phone)
+  .group-dogs
+    div
+      height: 135px
+  .navigation
+    height: 90px   
+  .foto-comands2
+    margin-top: 100px
+  .comand2
+    top: 70px  
