@@ -21,19 +21,19 @@
 @media (min-width: 768px) {
   /* line 10, ../components/bootstrap/_grid.scss */
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   /* line 10, ../components/bootstrap/_grid.scss */
   .container {
-    width: 970px;
+    width: 100%;
   }
 }
 @media (min-width: 1200px) {
   /* line 10, ../components/bootstrap/_grid.scss */
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 
@@ -2656,7 +2656,6 @@ hr {
 
 /* line 22, ../sass/screen.sass */
 .container {
-  max-width: 640px;
   min-width: 320px;
 }
 
