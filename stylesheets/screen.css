@@ -2654,238 +2654,255 @@ hr {
   border: 0;
 }
 
-/* line 24, ../sass/screen.sass */
+/* line 22, ../sass/screen.sass */
+html,
+body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 31, ../sass/screen.sass */
+* {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+/* line 34, ../sass/screen.sass */
 .container {
   max-width: 640px;
   min-width: 320px;
 }
 
-/* line 29, ../sass/screen.sass */
+/* line 39, ../sass/screen.sass */
 .navigation {
   height: 150px;
   background: url("../img/menu.png") no-repeat;
   background-size: contain;
 }
 
-/* line 37, ../sass/screen.sass */
+/* line 47, ../sass/screen.sass */
 #voice {
   background: url("../img/command-voice-step-1.png") no-repeat;
 }
 
-/* line 40, ../sass/screen.sass */
+/* line 50, ../sass/screen.sass */
 #wait {
   background: url("../img/command-wait-step-1.png") no-repeat;
 }
 
-/* line 43, ../sass/screen.sass */
+/* line 53, ../sass/screen.sass */
 #forward {
   background: url("../img/command-forward-step-1.png") no-repeat;
 }
 
-/* line 46, ../sass/screen.sass */
+/* line 56, ../sass/screen.sass */
 #to-me {
   background: url("../img/command-to-me-step-1.png") no-repeat;
 }
 
-/* line 49, ../sass/screen.sass */
+/* line 59, ../sass/screen.sass */
 #bad-step {
   background: url("../img/command-bad-step-1.png") no-repeat;
 }
 
-/* line 52, ../sass/screen.sass */
+/* line 62, ../sass/screen.sass */
 #back-step {
   background: url("../img/command-back-step-1.png") no-repeat;
 }
 
-/* line 57, ../sass/screen.sass */
+/* line 67, ../sass/screen.sass */
 #bring-step {
   background: url("../img/command-bring-step-1.png") no-repeat;
 }
 
-/* line 60, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 #bypass-step {
   background: url("../img/command-bypass-step-1.png") no-repeat;
 }
 
-/* line 63, ../sass/screen.sass */
+/* line 73, ../sass/screen.sass */
 #catch-2 {
   background: url("../img/command-catch_2-step-1.png") no-repeat;
 }
 
-/* line 66, ../sass/screen.sass */
+/* line 76, ../sass/screen.sass */
 #catch {
   background: url("../img/command-catch-step-1.png") no-repeat;
 }
 
-/* line 69, ../sass/screen.sass */
+/* line 79, ../sass/screen.sass */
 #creep-step {
   background: url("../img/command-creep-step-1.png") no-repeat;
 }
 
-/* line 72, ../sass/screen.sass */
+/* line 82, ../sass/screen.sass */
 #die-step {
   background: url("../img/command-die-step-1.png") no-repeat;
 }
 
-/* line 75, ../sass/screen.sass */
+/* line 85, ../sass/screen.sass */
 #give-step {
   background: url("../img/command-give-step-1.png") no-repeat;
 }
 
-/* line 78, ../sass/screen.sass */
+/* line 88, ../sass/screen.sass */
 #go-step {
   background: url("../img/command-go-step-1.png") no-repeat;
 }
 
-/* line 81, ../sass/screen.sass */
+/* line 91, ../sass/screen.sass */
 #hold-step {
   background: url("../img/command-hold-step-1.png") no-repeat;
 }
 
-/* line 84, ../sass/screen.sass */
+/* line 94, ../sass/screen.sass */
 #leave-step {
   background: url("../img/command-leave-step-1.png") no-repeat;
 }
 
-/* line 87, ../sass/screen.sass */
+/* line 97, ../sass/screen.sass */
 #lie-step {
   background: url("../img/command-lie-step-1.png") no-repeat;
 }
 
-/* line 90, ../sass/screen.sass */
+/* line 100, ../sass/screen.sass */
 #look-for {
   background: url("../img/command-look-for-step-1.png") no-repeat;
 }
 
-/* line 93, ../sass/screen.sass */
+/* line 103, ../sass/screen.sass */
 #nearby {
   background: url("../img/command-nearby-step-1.png") no-repeat;
 }
 
-/* line 96, ../sass/screen.sass */
+/* line 106, ../sass/screen.sass */
 #paw {
   background: url("../img/command-paw-step-1.png") no-repeat;
 }
 
-/* line 99, ../sass/screen.sass */
+/* line 109, ../sass/screen.sass */
 #possible {
   background: url("../img/command-possible-step-1.png") no-repeat;
 }
 
-/* line 102, ../sass/screen.sass */
+/* line 112, ../sass/screen.sass */
 #right {
   background: url("../img/command-right-step-1.png") no-repeat;
 }
 
-/* line 105, ../sass/screen.sass */
+/* line 115, ../sass/screen.sass */
 #serve {
   background: url("../img/command-serve-step-1.png") no-repeat;
 }
 
-/* line 108, ../sass/screen.sass */
+/* line 118, ../sass/screen.sass */
 #silently {
   background: url("../img/command-silently-step-1.png") no-repeat;
 }
 
-/* line 111, ../sass/screen.sass */
+/* line 121, ../sass/screen.sass */
 #sit {
   background: url("../img/command-sit-step-1.png") no-repeat;
 }
 
-/* line 114, ../sass/screen.sass */
+/* line 124, ../sass/screen.sass */
 #spot {
   background: url("../img/command-spot-step-1.png") no-repeat;
 }
 
-/* line 117, ../sass/screen.sass */
+/* line 127, ../sass/screen.sass */
 #stand {
   background: url("../img/command-stand-step-1.png") no-repeat;
 }
 
-/* line 120, ../sass/screen.sass */
+/* line 130, ../sass/screen.sass */
 #take {
   background: url("../img/command-take-step-1.png") no-repeat;
 }
 
-/* line 123, ../sass/screen.sass */
+/* line 133, ../sass/screen.sass */
 #teeth {
   background: url("../img/command-teeth-step-1.png") no-repeat;
 }
 
-/* line 128, ../sass/screen.sass */
+/* line 138, ../sass/screen.sass */
 .dog {
   margin-bottom: 20px;
   background: url("../img/star.png") no-repeat 95% 95% #efefef;
   background-size: auto;
 }
 
-/* line 133, ../sass/screen.sass */
+/* line 143, ../sass/screen.sass */
 .dog-block {
   margin-bottom: 20px;
   background: url("../img/block.png") no-repeat 95% 95% #efefef;
   background-size: auto;
 }
-/* line 137, ../sass/screen.sass */
+/* line 147, ../sass/screen.sass */
 .dog-block div {
   opacity: 0.5;
 }
 
-/* line 141, ../sass/screen.sass */
+/* line 151, ../sass/screen.sass */
 .group-dogs div {
   height: 235px;
 }
 
-/* line 144, ../sass/screen.sass */
+/* line 154, ../sass/screen.sass */
 .active {
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   height: 100%;
 }
-/* line 148, ../sass/screen.sass */
+/* line 159, ../sass/screen.sass */
 .active .dog div, .active .dog-block div {
   background-size: contain !important;
 }
 
-/* line 151, ../sass/screen.sass */
+/* line 162, ../sass/screen.sass */
 .inactive-left {
   overflow: hidden;
   padding-left: 0px;
 }
-/* line 154, ../sass/screen.sass */
+/* line 165, ../sass/screen.sass */
 .inactive-left .dog, .inactive-left .dog-block {
   background-position: 80% 95%;
 }
-/* line 156, ../sass/screen.sass */
+/* line 167, ../sass/screen.sass */
 .inactive-left p {
   visibility: hidden;
 }
 
-/* line 159, ../sass/screen.sass */
+/* line 170, ../sass/screen.sass */
 .inactive-right {
   overflow: hidden;
   padding-right: 0px;
 }
-/* line 162, ../sass/screen.sass */
+/* line 173, ../sass/screen.sass */
 .inactive-right .group-dogs {
   overflow: hidden;
 }
-/* line 164, ../sass/screen.sass */
+/* line 175, ../sass/screen.sass */
 .inactive-right .group-dogs .dog, .inactive-right .group-dogs .dog-block {
   background-position: -1000% 0%;
 }
 
-/* line 167, ../sass/screen.sass */
+/* line 178, ../sass/screen.sass */
 .fixed, .navigation2 {
   position: fixed;
 }
 
-/* line 170, ../sass/screen.sass */
+/* line 181, ../sass/screen.sass */
 .comand2 {
   background-color: white;
   position: fixed;
   top: 130px;
 }
 
-/* line 175, ../sass/screen.sass */
+/* line 186, ../sass/screen.sass */
 .foto-comands2 {
   margin-top: 220px;
   position: relative;
@@ -2893,22 +2910,22 @@ hr {
 }
 
 @media (max-width: 480px) {
-  /* line 182, ../sass/screen.sass */
+  /* line 193, ../sass/screen.sass */
   .group-dogs div {
     height: 135px;
   }
 
-  /* line 184, ../sass/screen.sass */
+  /* line 195, ../sass/screen.sass */
   .navigation {
     height: 90px;
   }
 
-  /* line 186, ../sass/screen.sass */
+  /* line 197, ../sass/screen.sass */
   .foto-comands2 {
     margin-top: 100px;
   }
 
-  /* line 188, ../sass/screen.sass */
+  /* line 199, ../sass/screen.sass */
   .comand2 {
     top: 70px;
   }
